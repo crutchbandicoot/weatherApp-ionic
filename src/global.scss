@@ -24,3 +24,41 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+:root{
+    --color-active: #FF8900;
+}
+
+body{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text{
+
+    &__big{
+        font-size: 70px;
+    }
+
+    &__med-1{
+        font-size: 40px;
+    }
+
+    &__med-2{
+        font-size: 30px;
+    }
+
+    &__small{
+        font-size: 23px;
+    }
+
+    &__uppercase{
+        text-transform: uppercase;
+    }
+
+    &__underline{
+        border-bottom: 0.15rem solid #333;
+        width: 7rem;
+    }
+  
+}

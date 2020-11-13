@@ -1,5 +1,5 @@
 {
-  "appId": "io.ionic.starter",
+  "appId": "ionicWeatherApp",
   "appName": "weather",
   "bundledWebRuntime": false,
   "npmClient": "npm",

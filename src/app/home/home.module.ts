@@ -4,6 +4,11 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
+import { WeatherInfoMainModule } from "../components/weather-info-main/weather-info-main.module";
+import { SearchBarModule } from '../components/search-bar/search-bar.module';
+import { WeatherInfoSecondaryModule } from '../components/weather-info-secondary/weather-info-secondary.module';
+
+
 import { HomePageRoutingModule } from './home-routing.module';
 
 
@@ -12,7 +17,10 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    WeatherInfoMainModule,
+    SearchBarModule,
+    WeatherInfoSecondaryModule,
   ],
   declarations: [HomePage]
 })
